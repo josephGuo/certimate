@@ -960,6 +960,10 @@
         "placeholder": "Please enter APISIX certificate ID",
         "tooltip": "You can find it on APISIX dashboard."
       },
+      "asiaispcdn_domain": {
+        "label": "Asia-ISP CDN domain",
+        "placeholder": "Please enter Asia-ISP CDN domain name"
+      },
       "aws_acm_region": {
         "label": "AWS Region",
         "placeholder": "Please enter AWS ACM region (e.g. us-east-1)",
@@ -2298,6 +2302,20 @@
       "tencentcloud_css_domain": {
         "label": "Tencent Cloud CSS streaming domain",
         "placeholder": "Please enter Tencent Cloud CSS streaming domain name"
+      },
+      "tencentcloud_ddospro_endpoint": {
+        "label": "Tencent Cloud API endpoint (Optional)",
+        "placeholder": "Please enter Tencent Cloud Anti-DDoS Pro API endpoint (e.g. clb.intl.tencentcloudapi.com)",
+        "tooltip": "<ul style=\"list-style: disc;\"><li><strong>clb.intl.tencentcloudapi.com</strong> for Tencent Cloud International</li><li><strong>clb.tencentcloudapi.com</strong> for Tencent Cloud in China (<em>Default</em>)</li></ul>"
+      },
+      "tencentcloud_ddospro_instance_id": {
+        "label": "Tencent Cloud Anti-DDoS Pro instance ID",
+        "placeholder": "Please enter Tencent Cloud Anti-DDoS Pro instance ID",
+        "tooltip": "For more information, see <a href=\"https://console.tencentcloud.com/ddos\" target=\"_blank\">https://console.tencentcloud.com/ddos</a>"
+      },
+      "tencentcloud_ddospro_domain": {
+        "label": "Tencent Cloud Anti-DDoS Pro domain",
+        "placeholder": "Please enter Tencent Cloud Anti-DDoS Pro domain name"
       },
       "tencentcloud_ecdn_endpoint": {
         "label": "Tencent Cloud API endpoint (Optional)",
